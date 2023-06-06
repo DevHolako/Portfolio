@@ -9,6 +9,7 @@ function Projects() {
   const projectList = [
     {
       title: "Rock Paper Scissors",
+      Credentials: false,
       image: game,
       description: "Rock Paper Scissors Game",
       list: ["HTML + CSS", "JavaScript"],
@@ -17,6 +18,7 @@ function Projects() {
     },
     {
       title: "Centre Dentaire Gueliz",
+      Credentials: true,
       image: Fcdg,
       description: "BackOffice of a Dental Clinic",
       list: ["React + Redux", "CSS"],
@@ -25,6 +27,7 @@ function Projects() {
     },
     {
       title: "CDG API",
+      Credentials: false,
       image: Bcdg,
       description: "Api for the Dental Clinic app",
       list: ["Laravel + Sanctum", "Mysql"],
@@ -33,6 +36,7 @@ function Projects() {
     },
     {
       title: "OLD PORTOFLIO",
+      Credentials: false,
       image: oldP,
       description: "Old Portfolio",
       list: ["React", "CSS"],
