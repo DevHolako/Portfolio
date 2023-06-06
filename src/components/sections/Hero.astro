@@ -1,0 +1,27 @@
+---
+import profilepic from "../../assets/images/profilepic.jpg";
+import Typing from "../Typing";
+import Name from "../Name";
+---
+
+<main
+  class="flex flex-row items-center my-8 mb-12 md:mt-32 md:mb-48 w-full h-fit"
+>
+  <div
+    class="w-full pl-4 md:pl-12 pr-4 sm:pr-24 py-12 md:py-24 text-xl md:text-3xl lg:text-6xl text-center sm:text-left flex flex-col gap-1 bg-v-white border-4 border-black drop-shadow-v-4"
+  >
+    <p>Hi ! 👋</p>
+    <p>I&apos;m <Name /></p>
+    <p>but you can call me <Name title="Holako" /></p>
+    <Typing client:load />
+  </div>
+  <span
+    class="hidden sm:flex border-4 border-black drop-shadow-v-4 -ml-16 z-20 text-[0px]"
+  >
+    <img
+      class="h-[128px] w-[128px] md:h-[256px] md:w-[256px] object-cover"
+      src={profilepic}
+      alt="profile pic"
+    />
+  </span>
+</main>

@@ -1,0 +1,35 @@
+---
+import Layout from "../components/Layout";
+import Hero from "../components/sections/Hero.astro";
+import About from "../components/sections/About";
+import Skills from "../components/sections/Skills";
+import Projects from "../components/sections/Projects";
+import Links from "../components/sections/Links";
+import Navbar from "../components/Navbar";
+import "../base.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="title" content="Marouane Rguibi" />
+    <meta name="description" content="Marouane Rguibi Personal Portfolio" />
+    <link rel="manifest" href="./manifest.json" />
+    <title>Marouane Rguibi</title>
+  </head>
+  <body>
+    <div class={"font-['Space_Grotesk'] background"}>
+      <Navbar />
+      <Layout>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Links />
+      </Layout>
+    </div>
+  </body>
+</html>

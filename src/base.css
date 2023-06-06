@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .box {
+    @apply border-4 border-black drop-shadow-v-4 hover:drop-shadow-none hover:translate-x-[4px] hover:translate-y-[4px] transition-all duration-300;
+  }
+
+  .box-2 {
+    @apply border-2 border-black drop-shadow-v-2 hover:drop-shadow-none hover:translate-x-[2px] hover:translate-y-[2px] transition-all duration-300;
+  }
+
+  .underline-hover-6 {
+    @apply bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_6px] bg-no-repeat hover:bg-[length:100%_6px] transition-all duration-500 ease-out;
+  }
+
+  .underline-hover-3 {
+    @apply bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_3px] bg-no-repeat hover:bg-[length:100%_3px] transition-all duration-500 ease-out;
+  }
+}
+
+html,
+body {
+  background-image: radial-gradient(#525252 20%, #e8dfca 20%);
+  background-position: 0 0;
+  background-size: 10px 10px;
+  height: 200px;
+  width: 100%;
+}
+
+.background {
+  background-image: url("https://i.imgur.com/CSo9ulp.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position-y: 128px;
+}
