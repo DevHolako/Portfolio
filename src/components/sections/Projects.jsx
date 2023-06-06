@@ -30,6 +30,14 @@ function Projects() {
       github: "https://github.com/DevHolako/cdg-backend",
       livelink: "https://cdg-api.holako.tech/",
     },
+    {
+      title: "OLD PORTOFLIO",
+      image: Bcdg,
+      description: "Old Portfolio",
+      list: ["React", "CSS"],
+      github: "https://github.com/DevHolako/old-portfolio",
+      livelink: "https://old.holako.tech/",
+    },
   ];
 
   return (
