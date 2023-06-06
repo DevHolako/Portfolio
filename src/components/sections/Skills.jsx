@@ -10,13 +10,13 @@ import laravel from "../../assets/icons/laravel.svg";
 
 function Skills() {
   const skillList = [
-    { icon: html, skill: "HTML" },
-    { icon: css, skill: "CSS" },
+    { icon: laravel, skill: "Laravel" },
+    { icon: node, skill: "NodeJS" },
+    { icon: react, skill: "React" },
     { icon: js, skill: "JavaScript" },
     { icon: tailwind, skill: "Tailwind" },
-    { icon: react, skill: "React" },
-    { icon: node, skill: "NodeJS" },
-    { icon: laravel, skill: "Laravel" },
+    { icon: css, skill: "CSS" },
+    { icon: html, skill: "HTML" },
   ];
 
   return (
