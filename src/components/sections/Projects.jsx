@@ -4,6 +4,7 @@ import ProjectItem from "../items/ProjectItem";
 import game from "../../assets/images/RockPaperSisores.png";
 import Fcdg from "../../assets/images/Fcdg.png";
 import Bcdg from "../../assets/images/Bcdg.png";
+import oldP from "../../assets/images/oldP.png";
 function Projects() {
   const projectList = [
     {
@@ -32,7 +33,7 @@ function Projects() {
     },
     {
       title: "OLD PORTOFLIO",
-      image: Bcdg,
+      image: oldP,
       description: "Old Portfolio",
       list: ["React", "CSS"],
       github: "https://github.com/DevHolako/old-portfolio",
