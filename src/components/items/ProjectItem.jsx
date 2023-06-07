@@ -17,7 +17,7 @@ function ProjectItem({ data }) {
               Credientsl:
               <ul>
                 <li>
-                  login: <span className="font-medium">holako || admin</span>
+                  login: <span className="font-medium">holako </span>
                 </li>
                 <li>
                   password: <span className="font-medium">password</span>
