@@ -7,18 +7,17 @@ import Bcdg from "../../assets/images/Bcdg.png";
 import oldP from "../../assets/images/oldP.png";
 function Projects() {
   const projectList = [
-    {
-      title: "Rock Paper Scissors",
+      {
+      title: "OLD PORTOFLIO",
       Credentials: false,
-      image: game,
-      description: "Rock Paper Scissors Game",
-      list: ["HTML + CSS", "JavaScript"],
-      github: "https://github.com/DevHolako/rock-paper-scissors",
-      livelink: "https://game.holako.tech/",
+      image: oldP,
+      description: "Old Portfolio",
+      list: ["React", "CSS"],
+      github: "https://github.com/DevHolako/old-portfolio",
+      livelink: "https://old.holako.tech/",
     },
-    {
+      {
       title: "Centre Dentaire Gueliz",
-      Credentials: true,
       image: Fcdg,
       description: "BackOffice of a Dental Clinic",
       list: ["React + Redux", "CSS"],
@@ -35,13 +34,13 @@ function Projects() {
       livelink: "https://cdg-api.holako.tech/",
     },
     {
-      title: "OLD PORTOFLIO",
+      title: "Rock Paper Scissors",
       Credentials: false,
-      image: oldP,
-      description: "Old Portfolio",
-      list: ["React", "CSS"],
-      github: "https://github.com/DevHolako/old-portfolio",
-      livelink: "https://old.holako.tech/",
+      image: game,
+      description: "Rock Paper Scissors Game",
+      list: ["HTML + CSS", "JavaScript"],
+      github: "https://github.com/DevHolako/rock-paper-scissors",
+      livelink: "https://game.holako.tech/",
     },
   ];
 
