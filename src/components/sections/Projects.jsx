@@ -31,7 +31,7 @@ function Projects() {
       description: "Api for the Dental Clinic app",
       list: ["Laravel + Sanctum", "Mysql"],
       github: "https://github.com/DevHolako/cdg-backend",
-      livelink: "https://cdg-api.holako.tech/",
+      livelink: "https://api-cdg.holako.tech",
     },
     {
       title: "Rock Paper Scissors",
