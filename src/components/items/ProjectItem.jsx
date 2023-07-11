@@ -8,10 +8,15 @@ function ProjectItem({ data }) {
   return (
     <div className="border-4 border-black drop-shadow-v-4 flex flex-col justify-around items-start bg-v-white px-4 py-6 gap-2">
       <p className="text-2xl  font-bold">{title}</p>
-      <img className="box-2 self-center" src={image} alt={title} style={{aspectRatio:16/9}} />
-      <p className="text-2xl font-medium">
-        {description}
-      </p>
+      <img
+        className="box-2 self-center"
+        src={image}
+        alt={title}
+        width={500}
+        height={500}
+      />
+
+      <p className="text-2xl font-medium">{description}</p>
       <ul className="text-xl font-medium">
         {list.map((item) => {
           return <li key={item}>&bull; {item}</li>;

@@ -1,11 +1,11 @@
 import React from "react";
 import SkillItem from "../items/SkillItem";
 import react from "../../assets/icons/react-2.svg";
-import html from "../../assets/icons/html.png";
+import html from "../../assets/icons/html.webp";
 import tailwind from "../../assets/icons/tailwind.svg";
-import css from "../../assets/icons/css-3.png";
-import js from "../../assets/icons/js.png";
-import node from "../../assets/icons/node-js.png";
+import css from "../../assets/icons/css-3.webp";
+import js from "../../assets/icons/js.webp";
+import node from "../../assets/icons/node-js.webp";
 import laravel from "../../assets/icons/laravel.svg";
 
 function Skills() {

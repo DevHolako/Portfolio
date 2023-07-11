@@ -1,13 +1,13 @@
 import React from "react";
 import ProjectItem from "../items/ProjectItem";
 
-import game from "../../assets/images/RockPaperSisores.png";
-import Fcdg from "../../assets/images/Fcdg.png";
-import Bcdg from "../../assets/images/Bcdg.png";
-import oldP from "../../assets/images/oldP.png";
+import game from "../../assets/images/RockPaperSisores.webp";
+import Fcdg from "../../assets/images/Fcdg.webp";
+import Bcdg from "../../assets/images/Bcdg.webp";
+import oldP from "../../assets/images/oldP.webp";
 function Projects() {
   const projectList = [
-      {
+    {
       title: "OLD PORTOFLIO",
       Credentials: false,
       image: oldP,
@@ -16,7 +16,7 @@ function Projects() {
       github: "https://github.com/DevHolako/old-portfolio",
       livelink: "https://old.holako.tech/",
     },
-      {
+    {
       title: "Centre Dentaire Gueliz",
       image: Fcdg,
       description: "BackOffice of a Dental Clinic",
