@@ -9,11 +9,9 @@ function ProjectItem({ data }) {
     <div className="border-4 border-black drop-shadow-v-4 flex flex-col justify-around items-start bg-v-white px-4 py-6 gap-2">
       <p className="text-2xl  font-bold">{title}</p>
       <img
-        className="box-2 self-center"
+        className="box-2 object-cover w-full h-[200px]"
         src={image}
         alt={title}
-        width={500}
-        height={500}
       />
 
       <p className="text-2xl font-medium">{description}</p>
