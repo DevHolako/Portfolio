@@ -9,6 +9,7 @@ function Projects() {
   const projectList = [
     {
       title: "OLD PORTOFLIO",
+      status: "up",
       Credentials: false,
       image: oldP,
       description: "Old Portfolio",
@@ -25,7 +26,8 @@ function Projects() {
       livelink: "https://cdg.holako.tech/",
     },
     {
-      title: "CDG API",
+      title: "CDG API  ",
+      status: "down",
       Credentials: false,
       image: Bcdg,
       description: "Api for the Dental Clinic app",
@@ -35,6 +37,7 @@ function Projects() {
     },
     {
       title: "Rock Paper Scissors",
+      status: "up",
       Credentials: false,
       image: game,
       description: "Rock Paper Scissors Game",
