@@ -20,7 +20,7 @@ function ProjectItem({ data }) {
         {status && status === "up" ? (
           <span className="text-sm">🟢 up</span>
         ) : (
-          <span className="text-sm">🔴 down for matintance</span>
+          <span className="text-sm">🔴 down for maintenance</span>
         )}
       </div>
       <img
