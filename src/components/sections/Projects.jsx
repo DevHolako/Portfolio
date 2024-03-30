@@ -19,6 +19,7 @@ function Projects() {
     },
     {
       title: "Centre Dentaire Gueliz",
+      "status": "up",
       image: Fcdg,
       description: "BackOffice of a Dental Clinic",
       list: ["React + Redux", "CSS"],
@@ -27,7 +28,7 @@ function Projects() {
     },
     {
       title: "CDG API  ",
-      status: "down",
+      status: "up",
       Credentials: false,
       image: Bcdg,
       description: "Api for the Dental Clinic app",
