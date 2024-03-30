@@ -15,7 +15,7 @@ function Projects() {
       description: "Old Portfolio",
       list: ["React", "CSS"],
       github: "https://github.com/DevHolako/old-portfolio",
-      livelink: "https://old.holako.tech/",
+      livelink: "https://oldpf.holako.dev/",
     },
     {
       title: "Centre Dentaire Gueliz",
@@ -24,7 +24,7 @@ function Projects() {
       description: "BackOffice of a Dental Clinic",
       list: ["React + Redux", "CSS"],
       github: "https://github.com/DevHolako/Centre-Dentaire-Gueliz",
-      livelink: "https://cdg.holako.tech/",
+      livelink: "https://cdg.holako.dev/",
     },
     {
       title: "CDG API  ",
@@ -34,17 +34,7 @@ function Projects() {
       description: "Api for the Dental Clinic app",
       list: ["Laravel + Sanctum", "Mysql"],
       github: "https://github.com/DevHolako/cdg-backend",
-      livelink: "https://api-cdg.holako.tech",
-    },
-    {
-      title: "Rock Paper Scissors",
-      status: "up",
-      Credentials: false,
-      image: game,
-      description: "Rock Paper Scissors Game",
-      list: ["HTML + CSS", "JavaScript"],
-      github: "https://github.com/DevHolako/rock-paper-scissors",
-      livelink: "https://game.holako.tech/",
+      livelink: "https://api-cdg.holako.dev",
     },
   ];
 

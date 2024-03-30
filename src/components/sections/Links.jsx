@@ -17,7 +17,7 @@ function Links() {
     {
       icon: <Mail />,
       text: "Email",
-      link: "marouane@holako.tech",
+      link: "marouane@holako.dev",
     },
   ];
 
