@@ -12,6 +12,7 @@ function ProjectItem({ data }) {
     Credentials,
     status,
   } = data;
+  const imageSrc = typeof image === "string" ? image : image?.src;
 
   return (
     <div className="border-4 border-black drop-shadow-v-4 flex flex-col justify-around items-start bg-v-white px-4 py-6 gap-2">
@@ -25,7 +26,7 @@ function ProjectItem({ data }) {
       </div>
       <img
         className="box-2 object-cover w-full h-[200px]"
-        src={image}
+        src={imageSrc}
         alt={title}
       />
 
