@@ -1,7 +1,8 @@
 ---
-import profilepic from "../../assets/images/profilepic.webp";
+import profilepic from "../../assets/images/main.webp";
 import Typing from "../Typing";
 import Name from "../Name";
+import Image from "astro/components/Image.astro";
 ---
 
 <main
@@ -18,12 +19,16 @@ import Name from "../Name";
   <span
     class="hidden sm:flex border-4 border-black drop-shadow-v-4 -ml-16 z-20 text-[0px]"
   >
-    <img
+    <Image
       class="h-[128px] w-[128px] md:h-[256px] md:w-[256px] object-cover"
       src={profilepic}
       alt="profile pic"
-        width={500}
-        height={500}
+      width={500}
+      height={500}
+    />
+  </span>
+</main>
+
     />
   </span>
 </main>
